@@ -1,0 +1,277 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "EMP001",
+      "name": "Rajesh Sharma",
+      "password_hash": "$2a$10$bnEWcmmr5tMkspqozoxCHuxxLDPNFXmZFQwiC5bJ6Vr.03yq8qhVW",
+      "role": "admin",
+      "phone": "+919876543210"
+    },
+    {
+      "id": 2,
+      "username": "EMP002",
+      "name": "Sanjay Kumar",
+      "password_hash": "$2a$10$bJ/JIxTie8Orn4w71pl7he1ypyd9GvFMWAxrwQj8PsMwmQoGzG4Jy",
+      "role": "supervisor",
+      "phone": "+919876543211"
+    },
+    {
+      "id": 3,
+      "username": "EMP003",
+      "name": "Amit Patel",
+      "password_hash": "$2a$10$s2IW2Z9LqS8iaKtHMbbnh.uqT32O2LDeFCPCRg20JRF3MqzC5va9O",
+      "role": "lineman",
+      "phone": "+919876543212"
+    },
+    {
+      "id": 4,
+      "username": "EMP004",
+      "name": "Vikram Singh",
+      "password_hash": "$2a$10$mGO5VZda5SSjpKtgnv44mORWSRUtVa2t3Ips/8Wkcq4f8WAYD1s.G",
+      "role": "lineman",
+      "phone": "+919876543213"
+    },
+    {
+      "id": 5,
+      "username": "EMP005",
+      "name": "Deepika Rao",
+      "password_hash": "$2a$10$eDjnaZVBWrGqo3iJN4htJOTUwnLoi2VLolpdQNVlsiSY81ojz8Blu",
+      "role": "section_engineer",
+      "phone": "+919876543214"
+    },
+    {
+      "id": 6,
+      "username": "VND001",
+      "name": "TrackForce Ltd Vendor",
+      "password_hash": "$2a$10$DdGj3PK0vbHR72ELD2cfFeoG70JhAsxgPU7OMfJGESUtpObv5eS8S",
+      "role": "vendor",
+      "phone": "+919876543215"
+    },
+    {
+      "id": 7,
+      "username": "VND002",
+      "name": "RailSignal Corp Vendor",
+      "password_hash": "$2a$10$tc.lZQKCrgk2H/k6N0/ccO9BPs0LEE05l8pEpn2fgn3XRpz8/WX6i",
+      "role": "vendor",
+      "phone": "+919876543216"
+    }
+  ],
+  "poles": [
+    {
+      "pole_id": "POLE-SEC12-0045",
+      "section_name": "Section 12",
+      "latitude": 19.076,
+      "longitude": 72.8777,
+      "last_inspection_date": "2026-06-15"
+    },
+    {
+      "pole_id": "POLE-SEC12-0046",
+      "section_name": "Section 12",
+      "latitude": 19.078,
+      "longitude": 72.8795,
+      "last_inspection_date": "2026-07-01"
+    },
+    {
+      "pole_id": "POLE-SEC12-0047",
+      "section_name": "Section 12",
+      "latitude": 19.08,
+      "longitude": 72.8812,
+      "last_inspection_date": "2026-05-10"
+    },
+    {
+      "pole_id": "POLE-SEC15-0101",
+      "section_name": "Section 15",
+      "latitude": 19.112,
+      "longitude": 72.9022,
+      "last_inspection_date": "2026-07-05"
+    },
+    {
+      "pole_id": "POLE-SEC15-0102",
+      "section_name": "Section 15",
+      "latitude": 19.115,
+      "longitude": 72.9055,
+      "last_inspection_date": "2026-04-20"
+    }
+  ],
+  "complaints": [
+    {
+      "id": "COMP-72941",
+      "pole_id": "POLE-SEC12-0047",
+      "reported_by": 3,
+      "severity": "Critical",
+      "category": "Track Fracture",
+      "media_url": "",
+      "description": "Severe vertical cracking observed on track joint near Pole 0047. Needs immediate action.",
+      "status": "Assigned",
+      "assigned_vendor_id": 6,
+      "created_at": "2026-07-08 10:15:30",
+      "updated_at": "2026-07-08 12:30:00",
+      "is_public": 0,
+      "is_moderated": 1
+    },
+    {
+      "id": "COMP-18349",
+      "pole_id": "POLE-SEC15-0102",
+      "reported_by": null,
+      "severity": "Major",
+      "category": "Vegetation",
+      "media_url": "",
+      "description": "Large bush blocking the visual line of signal pole. Commuter reported.",
+      "status": "Raised",
+      "assigned_vendor_id": null,
+      "created_at": "2026-07-09 08:22:00",
+      "updated_at": "2026-07-12 14:26:23",
+      "is_public": 1,
+      "is_moderated": 1
+    },
+    {
+      "id": "COMP-92384",
+      "pole_id": "POLE-SEC12-0045",
+      "reported_by": 3,
+      "severity": "Routine",
+      "category": "Pole Damage",
+      "media_url": "",
+      "description": "Base of QR code pole shows light rusting, paint peeling off.",
+      "status": "Resolved",
+      "assigned_vendor_id": null,
+      "created_at": "2026-07-05 14:00:00",
+      "updated_at": "2026-07-07 16:45:00",
+      "is_public": 0,
+      "is_moderated": 1
+    },
+    {
+      "id": "COMP-68034",
+      "pole_id": "POLE-SEC12-0047",
+      "reported_by": 3,
+      "severity": "Major",
+      "category": "Track Fracture",
+      "media_url": null,
+      "description": "Structural track fracture near joint.",
+      "status": 0,
+      "assigned_vendor_id": null,
+      "created_at": "2026-07-09 04:05:15",
+      "updated_at": "2026-07-09 04:05:15",
+      "is_public": 1
+    },
+    {
+      "id": "COMP-68643",
+      "pole_id": "POLE-SEC12-0047",
+      "reported_by": 1,
+      "severity": "Routine",
+      "category": "Track Fracture",
+      "media_url": null,
+      "description": "Hh",
+      "status": 0,
+      "assigned_vendor_id": null,
+      "created_at": "2026-07-12 14:26:58",
+      "updated_at": "2026-07-12 14:26:58",
+      "is_public": 1
+    }
+  ],
+  "complaint_status_log": [
+    {
+      "id": 1,
+      "complaint_id": "COMP-72941",
+      "changed_by": 3,
+      "from_status": "None",
+      "to_status": "Raised",
+      "notes": "Complaint registered",
+      "timestamp": "2026-07-08 10:15:30"
+    },
+    {
+      "id": 2,
+      "complaint_id": "COMP-72941",
+      "changed_by": 2,
+      "from_status": "Raised",
+      "to_status": "Assigned",
+      "notes": "Assigned to TrackForce Ltd for urgent joint welding",
+      "timestamp": "2026-07-08 12:30:00"
+    },
+    {
+      "id": 3,
+      "complaint_id": "COMP-18349",
+      "changed_by": null,
+      "from_status": "None",
+      "to_status": "Raised",
+      "notes": "Commuter report submitted",
+      "timestamp": "2026-07-09 08:22:00"
+    },
+    {
+      "id": 4,
+      "complaint_id": "COMP-92384",
+      "changed_by": 3,
+      "from_status": "None",
+      "to_status": "Raised",
+      "notes": "Routine checkup logged",
+      "timestamp": "2026-07-05 14:00:00"
+    },
+    {
+      "id": 5,
+      "complaint_id": "COMP-92384",
+      "changed_by": 3,
+      "from_status": "Raised",
+      "to_status": "Resolved",
+      "notes": "Polished rust and applied protective coating",
+      "timestamp": "2026-07-07 16:45:00"
+    },
+    {
+      "id": 6,
+      "complaint_id": "COMP-68034",
+      "changed_by": 3,
+      "timestamp": "2026-07-09 04:05:15"
+    },
+    {
+      "id": 7,
+      "complaint_id": "COMP-68643",
+      "changed_by": 1,
+      "timestamp": "2026-07-12 14:26:58"
+    }
+  ],
+  "maintenance_schedule": [
+    {
+      "id": 1,
+      "section_name": "Section 12",
+      "pole_id": "POLE-SEC12-0045",
+      "assigned_staff_id": 3,
+      "due_date": "2026-07-20",
+      "status": "Pending",
+      "completed_date": null,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "section_name": "Section 12",
+      "pole_id": "POLE-SEC12-0047",
+      "assigned_staff_id": 3,
+      "due_date": "2026-07-05",
+      "status": "Pending",
+      "completed_date": null,
+      "notes": "Overdue inspection"
+    },
+    {
+      "id": 3,
+      "section_name": "Section 15",
+      "pole_id": "POLE-SEC15-0102",
+      "assigned_staff_id": 3,
+      "due_date": "2026-07-08",
+      "status": "Pending",
+      "completed_date": null,
+      "notes": "Vegetation inspection"
+    }
+  ],
+  "vendors": [
+    {
+      "user_id": 6,
+      "company_name": "TrackForce Ltd",
+      "assigned_sections": "Section 12,Section 14",
+      "specialization": "Track Fracture & Structural Repairs"
+    },
+    {
+      "user_id": 7,
+      "company_name": "RailSignal Corp",
+      "assigned_sections": "Section 12,Section 15",
+      "specialization": "Signal Faults & Wiring Diagnostics"
+    }
+  ]
+}

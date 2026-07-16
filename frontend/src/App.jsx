@@ -6,7 +6,7 @@ import {
   ExternalLink, BarChart3, HelpCircle, Activity, Camera, AlertCircle
 } from 'lucide-react';
 
-const API_BASE = 'http://10.248.25.210:5000/api';
+const API_BASE = 'https://railways-pcck.onrender.com/api';
 
 export default function App() {
   // Navigation State
@@ -1351,7 +1351,7 @@ function DashboardView({ user, token, online, draftsCount, syncOfflineDrafts, na
                 {c.media_url && (
                   <div className="pt-1.5">
                     <a
-                      href={`http://localhost:5000${c.media_url}`}
+                      href={`https://railways-pcck.onrender.com${c.media_url}`}
                       target="_blank"
                       rel="noreferrer"
                       className="inline-flex items-center gap-1 text-[10px] text-amber-500 font-bold hover:underline"
@@ -1491,7 +1491,7 @@ function DashboardView({ user, token, online, draftsCount, syncOfflineDrafts, na
                 {c.media_url && (
                   <div>
                     <a
-                      href={`http://localhost:5000${c.media_url}`}
+                      href={`https://railways-pcck.onrender.com${c.media_url}`}
                       target="_blank"
                       rel="noreferrer"
                       className="text-[10px] text-amber-500 font-bold hover:underline flex items-center gap-1"
